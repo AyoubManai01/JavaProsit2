@@ -8,7 +8,7 @@ public class Main {
         Produit produitB = new Produit(2510, "Yaourt", "Vitalait", 0.600f);
         Produit produitC = new Produit(3250, "Tomate", "Sicam", 1.200f);
 
-        Date expirationDate = new Date(2025 - 1900, 11, 31); // Fix year issue
+        Date expirationDate = new Date(2025 - 1900, 11, 31);
         produitA.setDateexp(expirationDate);
         produitB.setDateexp(expirationDate);
         produitC.setDateexp(expirationDate);
